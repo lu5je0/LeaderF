@@ -1,6 +1,7 @@
 version: "1"
 rules:
   - base: master
+    upstream: Yggdroot:master 
     mergeMethod: merge
     assignees:              # Optional
       - lu5je0
